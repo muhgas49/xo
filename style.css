@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgb(13, 180, 180),darkblue);
+  font-weight: 500;
+}
+
+
+.game .title{
+    width: 30%;
+    background-color: rgb(1, 19, 41);
+    height: 5%;
+    text-align: center;
+    padding: 12px;
+    font-size: 28px;
+    color: white;
+}
+
+.game .one, .game .two, .game .three,.game .three{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+   
+}
+
+.title span{
+    color: yellow;
+}
+.game .one div, .game .two div, .game .three div{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(12, 14, 63);
+    cursor: pointer;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+   margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.game .one div:hover, .game .two div:hover, .game .three div:hover{
+    background: rgb(2, 3, 3);
+    color: rgb(212, 212, 212);
+    transition: 0.3s linear all;
+    
+}
+
+
+@media (min-width:1000px) and (max-width:1107px){
+    .game .title {
+        
+       width: 40%;
+    }
+}
+
+
+
+@media (min-width:900px) and (max-width:1000px){
+    .game .title {
+        
+       width: 45%;
+    }
+}
+
+
+@media (min-width:800px) and (max-width:900px){
+    .game .title {
+        
+       width: 50%;
+    }
+}
+
+
+
+@media (min-width:700px) and (max-width:800px){
+    .game .title {
+        
+       width: 56%;
+    }
+}
+
+
+
+@media (min-width:600px) and (max-width:700px){
+    .game .title {
+        
+       width: 65%;
+    }
+}
+
+
+
+@media (min-width:500px) and (max-width:600px){
+    .game .title {
+        
+       width: 80%;
+    }
+}
+
+
+
+@media (min-width:400px) and (max-width:500px){
+    .game .title {
+        
+       width: 80%;
+       font-size: 28px;
+    }
+    .game .one, .game .two, .game .three{
+        width: 96%;
+    }
+    .game .one div, .game .two div, .game .three div{
+        height: 100px;
+        width: 26%;
+    }
+}
+
+
+
+@media (min-width:300px) and (max-width:400px){
+    .game .title {
+        
+       width: 85%;
+       font-size: 24px;
+    }
+    .game .one, .game .two, .game .three{
+        width: 96%;
+        gap: 4px;
+        margin: 4px;
+    }
+    .game .one div, .game .two div, .game .three div{
+        height: 90px;
+        width: 28%;
+        font-size: 35px;
+        
+    }
+}
+
+
+
+
+@media (min-width:200px) and (max-width:300px){
+    .game .title {
+        
+       width: 82%;
+       height: 28px;
+       font-size: 18px;
+    }
+    .game .one, .game .two, .game .three{
+        width: 96%;
+        gap: 2px;
+        margin: 1px;
+    }
+    .game .one div, .game .two div, .game .three div{
+        height: 70px;
+        width: 28%;
+        font-size: 25px;
+        
+    }
+}
+
+
+
+
+@media (min-width:150px) and (max-width:200px){
+    .game .title {
+        
+       width: 80%;
+       height: 20px;
+       font-size: 16px;
+    }
+    .game .one, .game .two, .game .three{
+        width: 96%;
+        gap: 2px;
+        margin: 1px;
+    }
+    .game .one div, .game .two div, .game .three div{
+        height: 50px;
+        width: 26%;
+        font-size: 25px;
+        
+    }
+}
